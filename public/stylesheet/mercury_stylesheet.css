@@ -1,0 +1,41 @@
+li.wc_payment_method.payment_method_tp_mercury,
+div.tp_mercury_countdown {
+  border: solid #b00d63;
+  border-radius: 10px;
+}
+
+input[type="radio"].shmercurying_method ~ .payment_box,
+.woocommerce-page
+  input[type="radio"][name="payment_method"]
+  ~ div.payment_box.payment_method_tp_mercury {
+  padding-left: 0px;
+}
+
+img.tp_mercury_countdown_image {
+  margin: 0 auto;
+  display: block;
+}
+div.tp_mercury_timer {
+  border-radius: 10%;
+  background-color: #b00d63;
+  color: white;
+}
+div.tp_mercury_countdown,
+div.tp_mercury_desc {
+  text-align: center;
+}
+
+input#radio-control-wc-payment-method-options-tp_mercury{
+  border: 2px solid #b00d63;
+}
+input#radio-control-wc-payment-method-options-tp_mercury::before{
+  background-color: #b00d63;
+}
+div.tp_mercury_countdown_text{padding:0 10px;}
+
+img.tp_secured_img{
+  width: 50%;
+}
+img.tp_cc_imgs{
+  width:100%;
+}
